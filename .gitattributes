@@ -1,0 +1,22 @@
+# Set default behavior, in case users don't have core.autocrlf set.
+* text=auto
+
+# Declare files that will always have LF line endings in the repo
+*.js text eol=lf
+*.jsx text eol=lf
+*.ts text eol=lf
+*.tsx text eol=lf
+*.json text eol=lf
+*.md text eol=lf
+*.gitignore text eol=lf
+*.gitattributes text eol=lf
+
+# Declare files that will always have CRLF line endings in the repo (if any)
+# *.bat text eol=crlf
+
+# Declare files that should not be touched (binary files)
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.gif binary
+*.lockb binary # Example for lock files if needed
